@@ -12,7 +12,7 @@ import {
 
 export default function Page() {
    return (
-      <div>
+      <div className='bg-primary-black overflow-hidden'>
          <Navbar />
          <Hero />
          <About />
