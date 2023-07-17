@@ -2,7 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Dependencies
 
-1. Tailwindcss
+1. tailwindcss
+2. framer-motion
+3. eslint-config-next
 
 ## Getting Started
 
