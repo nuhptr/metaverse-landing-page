@@ -4,7 +4,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 1. tailwindcss
 2. framer-motion
-3. eslint-config-next
 
 ## Getting Started
 
