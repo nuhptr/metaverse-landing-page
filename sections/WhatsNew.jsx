@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function WhatsNew() {
-   return <section>What's New Section</section>;
-}
+const WhatsNew = () => (
+  <section>
+    What's new section
+  </section>
+);
+
+export default WhatsNew;

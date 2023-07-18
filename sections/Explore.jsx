@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function Explore() {
-   return <section>Explore Section</section>;
-}
+const Explore = () => (
+  <section>
+    Explore section
+  </section>
+);
+
+export default Explore;

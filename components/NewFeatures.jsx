@@ -1,3 +1,7 @@
-export default function NewFeatures() {
-   return <div>New Features</div>;
-}
+const NewFeatures = () => (
+  <div>
+    New Features
+  </div>
+);
+
+export default NewFeatures;

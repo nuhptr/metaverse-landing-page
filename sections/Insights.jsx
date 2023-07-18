@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function Insights() {
-   return <section>Insights Section</section>;
-}
+const Insights = () => (
+  <section>
+    Insights section
+  </section>
+);
+
+export default Insights;

@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function World() {
-   return <section>World Section</section>;
-}
+const World = () => (
+  <section>
+    World section
+  </section>
+);
+
+export default World;

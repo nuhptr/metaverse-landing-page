@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function Footer() {
-   return <footer>Footer</footer>;
-}
+const Footer = () => (
+  <footer>
+    footer
+  </footer>
+);
+
+export default Footer;

@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function GetStarted() {
-   return <section>Get Started Section</section>;
-}
+const GetStarted = () => (
+  <section>
+    Get Started Section
+  </section>
+);
+
+export default GetStarted;

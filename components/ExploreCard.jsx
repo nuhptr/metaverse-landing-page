@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function ExploreCard() {
-   return <div>ExploreCard</div>;
-}
+const ExploreCard = () => (
+  <div>
+    Explore Card
+  </div>
+);
+
+export default ExploreCard;

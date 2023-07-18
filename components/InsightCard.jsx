@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function InsightCard() {
-   return <div>InsightCard</div>;
-}
+const InsightCard = () => (
+  <div>
+    Insight Card
+  </div>
+);
+
+export default InsightCard;

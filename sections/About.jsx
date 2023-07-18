@@ -1,5 +1,9 @@
-"use client";
+'use client';
 
-export default function About() {
-   return <section>About Section</section>;
-}
+const About = () => (
+  <section>
+    About section
+  </section>
+);
+
+export default About;
