@@ -5,8 +5,37 @@ import { motion } from "framer-motion";
 
 import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import { TypingText } from "../components";
+import { ExploreCard, TitleText, TypingText } from "../components";
 
-const Explore = () => <section>Explore section</section>;
+import { exploreWorlds } from "../constants";
 
-export default Explore;
+export default function Explore() {
+   const [active, setActive] = useState("world-2");
+
+   return (
+      <section className={`${styles.paddings}`} id='explore'>
+         <motion.div
+            variants={staggerContainer}
+            initial='hidden'
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.25 }}
+            className={`${styles.innerWidth} mx-auto flex flex-col`}>
+            <TypingText title={"| The World"} textStyles={"text-center"} />
+            <TitleText
+               title={
+                  <>
+                     Choose the world you want <br className='hidden md:block' /> to explore
+                  </>
+               }
+               textStyles={"text-center"}
+            />
+
+            <div className='mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5'>
+               {exploreWorlds.map((world, index) => (
+                  <ExploreCard key={world.id} {...world} active={active} handleClick={setActive} />
+               ))}
+            </div>
+         </motion.div>
+      </section>
+   );
+}
