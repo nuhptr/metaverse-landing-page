@@ -7,6 +7,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <!-- 56:06 -->
 
+You can also prevent extensions from causing a mismatch by setting <suppressHydrationWarning={true} /> to true in the opening <body>
+
 ## Getting Started
 
 First, run the development server:
