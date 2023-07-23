@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+![Screenshot (397)](https://github.com/nuhptr/metaverse-landing-page/assets/50306963/bcf1aa4c-6b9b-4927-adb9-48cc8ee7e293)
+
 ## Dependencies
 
 -  Framer Motion (https://www.framer.com/motion/)
