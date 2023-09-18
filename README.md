@@ -2,8 +2,8 @@
 
 ## Dependencies
 
--  [Framer Motion](https://www.framer.com/motion/)
--  [Tailwindcss](https://tailwindcss.com/docs/installation)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Tailwindcss](https://tailwindcss.com/docs/installation)
 
 You can also prevent extensions from causing a mismatch by setting <suppressHydrationWarning={true} /> to true in the opening <body>
 
@@ -11,8 +11,8 @@ You can also prevent extensions from causing a mismatch by setting <suppressHydr
 
 To learn more about Next.js, take a look at the following resources:
 
--  [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--  [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 ## Deploy on Vercel
 
