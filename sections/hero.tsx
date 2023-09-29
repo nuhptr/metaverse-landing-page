@@ -2,28 +2,27 @@
 
 import { motion } from 'framer-motion'
 
-import styles from '../styles'
-import { slideIn, staggerContainer, textVariant } from '../utils/motion'
+import { slideIn, staggerContainer, textVariant } from '@/utils/motion'
 
 export default function Hero() {
   return (
-    <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+    <section className={`y-paddings sm:pl-16 pl-6`}>
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer()}
         initial='hidden'
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}>
+        className={`inner-width mx-auto flex flex-col`}>
         <div className='relative z-10 flex flex-col items-center justify-center'>
-          <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+          <motion.h1 variants={textVariant(1.1)} className={'hero-heading'}>
             Metaverse
           </motion.h1>
           <motion.div
             variants={textVariant(1.2)}
             className='flex flex-row items-center justify-center'>
-            <h1 className={styles.heroHeading}>Ma</h1>
-            <div className={styles.heroDText} />
-            <h1 className={styles.heroHeading}>Ness</h1>
+            <h1 className={'hero-heading'}>Ma</h1>
+            <div className={'hero-d-text'} />
+            <h1 className={'hero-heading'}>Ness</h1>
           </motion.div>
         </div>
 

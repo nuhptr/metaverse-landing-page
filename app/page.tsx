@@ -1,12 +1,7 @@
-import { Footers, Navbar } from '../components'
-import { About, Explores, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections'
+import { Footer, Navbar } from '@/components'
+import { About, Explore, Feedback, GetStarted, Hero, Insight, WhatsNew, Worlds } from '@/sections'
 
-export const metadata = {
-  title: 'Metaversus',
-  description: 'Metaversus is a metaverse that is built on top of the Ethereum blockchain.',
-}
-
-export default function Page() {
+export default function Home() {
   return (
     <div className='overflow-hidden bg-primary-black'>
       <Navbar />
@@ -15,7 +10,7 @@ export default function Page() {
       <div className='relative'>
         <About />
         <div className='z-0 gradient-03' />
-        <Explores />
+        <Explore />
       </div>
 
       <div className='relative'>
@@ -24,15 +19,15 @@ export default function Page() {
         <WhatsNew />
       </div>
 
-      <World />
+      <Worlds />
 
       <div className='relative'>
-        <Insights />
+        <Insight />
         <div className='z-0 gradient-05' />
         <Feedback />
       </div>
 
-      <Footers />
+      <Footer />
     </div>
   )
 }

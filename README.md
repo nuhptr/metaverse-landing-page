@@ -1,11 +1,12 @@
-![Screenshot (397)](https://github.com/nuhptr/metaverse-landing-page/assets/50306963/bcf1aa4c-6b9b-4927-adb9-48cc8ee7e293)
+# Next.js + framer-motion Building Metaverse Landing Page
 
-## Dependencies
+This is a Nextjs Project to learn how to use framer-motion to create animations.
 
-- [Framer Motion](https://www.framer.com/motion/)
-- [Tailwindcss](https://tailwindcss.com/docs/installation)
+<!-- image section -->
 
-You can also prevent extensions from causing a mismatch by setting <suppressHydrationWarning={true} /> to true in the opening <body>
+## Getting Started
+
+- [framer-motion](https://www.framer.com/motion/) - An open source React library to power production-ready animations. Design fluid animations for the web, across desktop and mobile. (npm install framer-motion)
 
 ## Learn More
 

@@ -2,22 +2,21 @@
 
 import { motion } from 'framer-motion'
 
-import styles from '../styles'
+import { staggerContainer, fadeIn, planetVariants } from '@/utils/motion'
+import { StartSteps, TitleText, TypingText } from '@/components'
 
-import { staggerContainer, fadeIn, planetVariants } from '../utils/motion'
-import { StartSteps, TitleText, TypingText } from '../components'
-import { startingFeatures } from '../constants'
+import { startingFeatures } from '@/constant'
 
 export default function GetStarted() {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`paddings relative z-10`}>
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer()}
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}>
-        <motion.div variants={planetVariants('left')} className={`flex-1 ${styles.flexCenter} `}>
+        className={`inner-width mx-auto flex lg:flex-row flex-col gap-8`}>
+        <motion.div variants={planetVariants('left')} className={`flex-1 flex-center`}>
           <img
             src='/get-started.png'
             alt='get-started'

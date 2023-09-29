@@ -2,20 +2,18 @@
 
 import { motion } from 'framer-motion'
 
-import styles from '../styles'
+import { staggerContainer, fadeIn } from '@/utils/motion'
+import { TitleText, TypingText } from '@/components'
 
-import { staggerContainer, fadeIn } from '../utils/motion'
-import { TitleText, TypingText } from '../components'
-
-export default function World() {
+export default function Worlds() {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`paddings relative z-10`}>
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer()}
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}>
+        className={`inner-width mx-auto flex flex-col`}>
         <TypingText title={'| People on the world'} textStyles={'text-center'} />
         <TitleText
           title={<>Track friends around you and invite them to play together in the same world</>}
