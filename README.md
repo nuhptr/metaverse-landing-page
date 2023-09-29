@@ -2,7 +2,7 @@
 
 This is a Nextjs Project to learn how to use framer-motion to create animations.
 
-<!-- image section -->
+![Metaversus Image](https://github.com/nuhptr/metaverse-landing-page/assets/50306963/72524a54-a86b-474c-a837-ac4470e0915d)
 
 ## Getting Started
 
