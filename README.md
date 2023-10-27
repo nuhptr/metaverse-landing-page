@@ -6,6 +6,4 @@ This is a Nextjs Project to learn how to use framer-motion to create animations.
 
 ## Getting Started
 
-- [framer-motion](https://www.framer.com/motion/) - An open source React library to power production-ready animations. Design fluid animations for the web, across desktop and mobile. (npm install framer-motion)
-
-
+-  [framer-motion](https://www.framer.com/motion/) - An open source React library to power production-ready animations. Design fluid animations for the web, across desktop and mobile. (npm install framer-motion)
