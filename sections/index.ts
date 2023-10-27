@@ -1,10 +1,10 @@
-import About from "./About"
-import Explore from "./Explore"
-import Feedback from "./Feedback"
-import GetStarted from "./GetStarted"
-import Hero from "./Hero"
-import Insight from "./Insight"
-import WhatsNew from "./WhatsNew"
-import Worlds from "./Worlds"
+import About from "./about"
+import Explore from "./explore"
+import Feedback from "./feedback"
+import GetStarted from "./get-started"
+import Hero from "./hero"
+import Insight from "./insight"
+import WhatsNew from "./whats-new"
+import Worlds from "./worlds"
 
 export { About, Explore, Feedback, GetStarted, Hero, Insight, WhatsNew, Worlds }
